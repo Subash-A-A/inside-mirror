@@ -20,6 +20,7 @@ public class PlayerController : MonoBehaviour
     public bool _isShielded = false;
     public bool _canShield = true;
     public bool _ultimateReady = true;
+    public bool _canShoot = true;
 
     [Range(0f, 1f)]
     public float _goodEvil = 0f;
@@ -54,6 +55,10 @@ public class PlayerController : MonoBehaviour
                 _isShielded = true;
                 _canShield = false;
             }
+            else
+            {
+                _canShoot = false;
+            }
 
             _ultimateReady = false;
             UseUltimate();
@@ -65,8 +70,9 @@ public class PlayerController : MonoBehaviour
                 _isShielded = true;
                 UseSelfAbility();
             }
-            else if(_goodEvil == 1)
+            else if(_goodEvil == 1 && _canShoot)
             {
+                _canShoot = false;
                 UseSelfAbility();
             }
         }

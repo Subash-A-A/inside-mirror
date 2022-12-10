@@ -34,6 +34,34 @@ public class UltimateStatus : MonoBehaviour
             rFillAmount = 0f;
         }
 
-        rSlider.fillAmount = Mathf.Lerp(rSlider.fillAmount, rFillAmount, 10 * Time.deltaTime);
+        if(playerController._goodEvil == 0f)
+        {
+            if (playerController._canShield && !playerController._isShielded)
+            {
+                lMouseIcon.color = available;
+                lFillAmount = 1f;
+            }
+            else
+            {
+                lMouseIcon.color = unAvailable;
+                lFillAmount = 0f;
+            }
+        }
+        else
+        {
+            if (playerController._canShoot)
+            {
+                lMouseIcon.color = available;
+                lFillAmount = 1f;
+            }
+            else
+            {
+                lMouseIcon.color = unAvailable;
+                lFillAmount = 0f;
+            }
+        }
+
+        rSlider.fillAmount = Mathf.Lerp(rSlider.fillAmount, rFillAmount, 10 * Time.unscaledDeltaTime);
+        lSlider.fillAmount = Mathf.Lerp(lSlider.fillAmount, lFillAmount, 10 * Time.unscaledDeltaTime);
     }
 }

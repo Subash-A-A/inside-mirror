@@ -63,11 +63,13 @@ public class AnimationEventManager : MonoBehaviour
     public void FireBullet()
     {
         Instantiate(BulletPrefab, currentPlayerBox.transform.position, Quaternion.identity);
+        currentPlayer._canShoot = true;
     }
 
     public void FireUltimateBullet()
     {
         Instantiate(UltimateBullet, currentPlayerBox.transform.position, Quaternion.identity);
+        currentPlayer._canShoot = true;
         StartCoroutine(UltimateDowntime(fireDownTime));
     }
 

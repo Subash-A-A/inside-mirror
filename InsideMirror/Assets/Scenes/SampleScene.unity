@@ -2144,7 +2144,9 @@ MonoBehaviour:
   _isControlling: 1
   _canSwitch: 1
   _isShielded: 0
+  _canShield: 1
   _ultimateReady: 1
+  _canShoot: 1
   _goodEvil: 0
 --- !u!114 &618626565
 MonoBehaviour:
@@ -3338,7 +3340,9 @@ MonoBehaviour:
   _isControlling: 0
   _canSwitch: 1
   _isShielded: 0
+  _canShield: 1
   _ultimateReady: 1
+  _canShoot: 1
   _goodEvil: 1
 --- !u!114 &878826586
 MonoBehaviour:
@@ -4569,7 +4573,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.3490566, g: 0.3490566, b: 0.3490566, a: 1}
+  m_Color: {r: 1, g: 1, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
