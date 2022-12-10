@@ -2,8 +2,9 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
-    [SerializeField] float bulletSpeed = 40f;
-    [SerializeField] bool isUltimateBullet = false;
+    public float bulletSpeed = 40f;
+    public bool isUltimateBullet = false;
+
     private Rigidbody2D rb;
 
     private void Start()
@@ -14,7 +15,7 @@ public class Bullet : MonoBehaviour
 
     private void FixedUpdate()
     {
-        rb.velocity = Vector2.right * bulletSpeed;
+        rb.velocity = transform.right * bulletSpeed;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -29,6 +30,15 @@ public class Bullet : MonoBehaviour
             else
             {
                 Destroy(collision.gameObject);
+                if(transform.rotation.z == 0f)
+                {
+                    GameObject bullet = Instantiate(gameObject, transform.position, Quaternion.Euler(0f, 0f, 90f));
+                    bullet.GetComponent<Bullet>().bulletSpeed = bulletSpeed * 2f;
+                }
+                else
+                {
+                    GameObject bullet = Instantiate(gameObject, transform.position, Quaternion.Euler(0f, 0f, 0f));
+                }
             }
         }
     }

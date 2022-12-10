@@ -18,6 +18,8 @@ public class PlayerController : MonoBehaviour
     public bool _isControlling = false;
     public bool _canSwitch = true;
     public bool _isShielded = false;
+    public bool _canShield = true;
+    public bool _ultimateReady = true;
 
     [Range(0f, 1f)]
     public float _goodEvil = 0f;
@@ -45,16 +47,25 @@ public class PlayerController : MonoBehaviour
             Switch();
         }
 
-        if(Input.GetMouseButtonDown(1) && _isControlling)
-        {
-            if (!_isShielded)
+        if(Input.GetMouseButtonDown(1) && _isControlling && _ultimateReady)
+        {   
+            if(_goodEvil == 0f)
             {
-                UseUltimate();
+                _isShielded = true;
+                _canShield = false;
             }
+
+            _ultimateReady = false;
+            UseUltimate();
         }
         else if (Input.GetMouseButtonDown(0) && _isControlling)
         {
-            if (!_isShielded)
+            if (_goodEvil == 0f && !_isShielded && _canShield)
+            {
+                _isShielded = true;
+                UseSelfAbility();
+            }
+            else if(_goodEvil == 1)
             {
                 UseSelfAbility();
             }

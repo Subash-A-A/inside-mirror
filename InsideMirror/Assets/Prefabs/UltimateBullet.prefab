@@ -140,6 +140,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletSpeed: 30
   isUltimateBullet: 1
+  direction: {x: 1, y: 0}
 --- !u!1 &5277278096447811161
 GameObject:
   m_ObjectHideFlags: 0

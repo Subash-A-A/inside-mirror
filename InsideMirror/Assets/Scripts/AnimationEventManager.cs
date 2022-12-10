@@ -13,7 +13,10 @@ public class AnimationEventManager : MonoBehaviour
     [SerializeField] private GameObject BulletPrefab;
     [SerializeField] private GameObject UltimateBullet;
     [SerializeField] private GameObject Shield;
+    [SerializeField] private GameObject UltimateShield;
     [SerializeField] private GameObject MirrorShield;
+    [SerializeField] private float shieldDownTime = 20f;
+    [SerializeField] private float fireDownTime = 10f;
 
     private PlayerController currentPlayer;
     private Animator currentAnimator;
@@ -65,6 +68,7 @@ public class AnimationEventManager : MonoBehaviour
     public void FireUltimateBullet()
     {
         Instantiate(UltimateBullet, currentPlayerBox.transform.position, Quaternion.identity);
+        StartCoroutine(UltimateDowntime(fireDownTime));
     }
 
     public void FireEnd()
@@ -85,10 +89,11 @@ public class AnimationEventManager : MonoBehaviour
     }
 
     public void ShieldActivate()
-    {   
+    {
         TrailRenderer tr = Shield.GetComponent<TrailRenderer>();
         tr.emitting = true;
         Shield.SetActive(true);
+
         tm.StopSlowMotion();
         currentAnimator.updateMode = AnimatorUpdateMode.Normal;
         StartCoroutine(ShieldDuration());
@@ -96,9 +101,9 @@ public class AnimationEventManager : MonoBehaviour
 
     public void UltimateShieldActivate()
     {
-        TrailRenderer tr = Shield.GetComponent<TrailRenderer>();
+        TrailRenderer tr = UltimateShield.GetComponent<TrailRenderer>();
         tr.emitting = true;
-        Shield.SetActive(true);
+        UltimateShield.SetActive(true);
 
         TrailRenderer tr1 = MirrorShield.GetComponent<TrailRenderer>();
         tr1.emitting = true;
@@ -111,16 +116,23 @@ public class AnimationEventManager : MonoBehaviour
 
     IEnumerator UltimateShieldDuration()
     {
-        TrailRenderer tr = Shield.GetComponent<TrailRenderer>();
+        TrailRenderer tr = UltimateShield.GetComponent<TrailRenderer>();
         TrailRenderer tr1 = MirrorShield.GetComponent<TrailRenderer>();
         yield return new WaitForSeconds(10f);
         tr.emitting = false;
         tr1.emitting = false;
         yield return new WaitForSeconds(0.05f);
-        Shield.SetActive(false);
+        UltimateShield.SetActive(false);
         MirrorShield.SetActive(false);
-
         currentPlayer._isShielded = false;
+        currentPlayer._canShield = true;
+        StartCoroutine(UltimateDowntime(shieldDownTime));
+    }
+
+    IEnumerator UltimateDowntime(float downTime)
+    {
+        yield return new WaitForSeconds(downTime);
+        currentPlayer._ultimateReady = true;
     }
 
     IEnumerator ShieldDuration()
@@ -139,8 +151,12 @@ public class AnimationEventManager : MonoBehaviour
         tr.emitting = false;
         Shield.SetActive(false);
 
-        TrailRenderer tr1 = MirrorShield.GetComponent<TrailRenderer>();
+        TrailRenderer tr1 = UltimateShield.GetComponent<TrailRenderer>();
         tr1.emitting = false;
+        UltimateShield.SetActive(false);
+
+        TrailRenderer tr2 = MirrorShield.GetComponent<TrailRenderer>();
+        tr2.emitting = false;
         MirrorShield.SetActive(false);
     }
 
