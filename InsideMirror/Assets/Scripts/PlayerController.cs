@@ -45,9 +45,16 @@ public class PlayerController : MonoBehaviour
             Switch();
         }
 
-        if (Input.GetMouseButtonDown(0) && _isControlling)
-        {   
-            if(!_isShielded)
+        if(Input.GetMouseButtonDown(1) && _isControlling)
+        {
+            if (!_isShielded)
+            {
+                UseUltimate();
+            }
+        }
+        else if (Input.GetMouseButtonDown(0) && _isControlling)
+        {
+            if (!_isShielded)
             {
                 UseSelfAbility();
             }
@@ -101,5 +108,10 @@ public class PlayerController : MonoBehaviour
     private void UseSelfAbility()
     {
         _anim.SetTrigger("SelfAbility");
+    }
+
+    private void UseUltimate()
+    {
+        _anim.SetTrigger("Ultimate");
     }
 }

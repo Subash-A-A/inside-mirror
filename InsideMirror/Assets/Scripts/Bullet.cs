@@ -3,6 +3,7 @@ using UnityEngine;
 public class Bullet : MonoBehaviour
 {
     [SerializeField] float bulletSpeed = 40f;
+    [SerializeField] bool isUltimateBullet = false;
     private Rigidbody2D rb;
 
     private void Start()
@@ -19,9 +20,16 @@ public class Bullet : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.transform.CompareTag("Obstacle"))
-        {   
-            Destroy(collision.gameObject);
-            Destroy(gameObject);
+        {
+            if (!isUltimateBullet)
+            {
+                Destroy(collision.gameObject);
+                Destroy(gameObject);
+            }
+            else
+            {
+                Destroy(collision.gameObject);
+            }
         }
     }
 }
