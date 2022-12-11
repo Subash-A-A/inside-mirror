@@ -59,10 +59,17 @@ public class MenuControls : MonoBehaviour
         GameOverMenu.SetActive(true);
     }
 
-     public void Retry()
+    public void Retry()
     {
         Health.gameOver = false;
         ResumeGame();
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+
+    public void ExitToMainMenu()
+    {
+        Health.gameOver = false;
+        ResumeGame();
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
     }
 }

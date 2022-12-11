@@ -1,0 +1,1200 @@
+fileFormatVersion: 2
+guid: 74e485cc830be594e9a447339d6a7e65
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: upRight_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2256
+        width: 621
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55188d1d7841a504dadca74b7269c470
+      internalID: -254784784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upRight_1
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 2256
+        width: 621
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65b14597e708eea41b51fc7c4fa0bb35
+      internalID: -1608277847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upRight_2
+      rect:
+        serializedVersion: 2
+        x: 1242
+        y: 2256
+        width: 621
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23cbcde54314f684180462af0763fe47
+      internalID: 1350071307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upRight_3
+      rect:
+        serializedVersion: 2
+        x: 1863
+        y: 2256
+        width: 621
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abb998097a450294486d9a77f8b8a6de
+      internalID: -1610045730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upRight_4
+      rect:
+        serializedVersion: 2
+        x: 2484
+        y: 2256
+        width: 621
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc6fa5f21fee0b6469f8db6eb27ee47f
+      internalID: -1026823461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upRight_5
+      rect:
+        serializedVersion: 2
+        x: 3105
+        y: 2256
+        width: 621
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f956ad489aa625f4ca7e395af0c2627a
+      internalID: 929582793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upRight_6
+      rect:
+        serializedVersion: 2
+        x: 3726
+        y: 2256
+        width: 621
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 768b8c3fcff4c9d4aad7592c3e86cbee
+      internalID: -422413922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upRight_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1880
+        width: 621
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f92b6d986100ca1488e2abbcca4920f0
+      internalID: 1840448281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upRight_8
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 1880
+        width: 621
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40f9c355fd4f8414e844cadacace148c
+      internalID: -1236486847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upRight_9
+      rect:
+        serializedVersion: 2
+        x: 1242
+        y: 1880
+        width: 621
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4578fe15c1d40ad43a93e0c3dc22b35f
+      internalID: 1184653906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upRight_10
+      rect:
+        serializedVersion: 2
+        x: 1863
+        y: 1880
+        width: 621
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d880af2adf6050148a87955a0cfd2bba
+      internalID: 1422228540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upRight_11
+      rect:
+        serializedVersion: 2
+        x: 2484
+        y: 1880
+        width: 621
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b6f8d6e1d9501c46865134b86350fa6
+      internalID: 101278279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upRight_12
+      rect:
+        serializedVersion: 2
+        x: 3105
+        y: 1880
+        width: 621
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c0ca55a703670f4cbea978c63ea5fcb
+      internalID: 1083128281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upRight_13
+      rect:
+        serializedVersion: 2
+        x: 3726
+        y: 1880
+        width: 621
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 074643aeeefa7f14f9b4cd49c7ee4daa
+      internalID: 826271865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upRight_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1504
+        width: 621
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fba2c914b7530f4e82afeb4338658fe
+      internalID: -60922896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upRight_15
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 1504
+        width: 621
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15dda4d482d2f574bafb1fa78e5fb9c8
+      internalID: 1765746106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upRight_16
+      rect:
+        serializedVersion: 2
+        x: 1242
+        y: 1504
+        width: 621
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c10127f242bfdf2408c0ef7d7a8b892c
+      internalID: -2135261777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upRight_17
+      rect:
+        serializedVersion: 2
+        x: 1863
+        y: 1504
+        width: 621
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a000387c60699744a7501fdfa6b031f
+      internalID: 589935327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upRight_18
+      rect:
+        serializedVersion: 2
+        x: 2484
+        y: 1504
+        width: 621
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf68567f481b8fa4b8016aa1855737a2
+      internalID: 1415496479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upRight_19
+      rect:
+        serializedVersion: 2
+        x: 3105
+        y: 1504
+        width: 621
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bda900f822a925f4e9d9aea4d5c34c6d
+      internalID: 694382086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upRight_20
+      rect:
+        serializedVersion: 2
+        x: 3726
+        y: 1504
+        width: 621
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff726b2214671d04f8dd6c433e9a4005
+      internalID: -828043742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upRight_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1128
+        width: 621
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9db4553bab55fb247ade388ec951ae94
+      internalID: 2128085144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upRight_22
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 1128
+        width: 621
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 059f76b3950392f4a9582e06729a4ffe
+      internalID: 702707524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upRight_23
+      rect:
+        serializedVersion: 2
+        x: 1242
+        y: 1128
+        width: 621
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7be8b1f926944ef4db7e2d4a82b784f8
+      internalID: -93982048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upRight_24
+      rect:
+        serializedVersion: 2
+        x: 1863
+        y: 1128
+        width: 621
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19b3984c6509bc045ac8039c60820fe4
+      internalID: -1145260252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upRight_25
+      rect:
+        serializedVersion: 2
+        x: 2484
+        y: 1128
+        width: 621
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fabf1e9408eba7d49876e3ee21d1b67b
+      internalID: 900266532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upRight_26
+      rect:
+        serializedVersion: 2
+        x: 3105
+        y: 1128
+        width: 621
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30e4e3ee0994ad24f936b1df5a9c94db
+      internalID: 117490273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upRight_27
+      rect:
+        serializedVersion: 2
+        x: 3726
+        y: 1128
+        width: 621
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9f157a9ad9e55e4e9a25198acce7d74
+      internalID: 1960826831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upRight_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 752
+        width: 621
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc95ad7031dbd874a8d54f40cb227fa3
+      internalID: 661038948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upRight_29
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 752
+        width: 621
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c5f97424c333084eab604cc6a306c22
+      internalID: 192355700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upRight_30
+      rect:
+        serializedVersion: 2
+        x: 1242
+        y: 752
+        width: 621
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1073ee0c078e684d898ad40d163c730
+      internalID: 851239535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upRight_31
+      rect:
+        serializedVersion: 2
+        x: 1863
+        y: 752
+        width: 621
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cbd8d6fb71baea488efc0feb45e2320
+      internalID: 951923679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upRight_32
+      rect:
+        serializedVersion: 2
+        x: 2484
+        y: 752
+        width: 621
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f85e8de4365b0564882d80cf5d8f2458
+      internalID: -431559331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upRight_33
+      rect:
+        serializedVersion: 2
+        x: 3105
+        y: 752
+        width: 621
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d30520e91ac5a84486755c8cacbd8f2
+      internalID: 1374626906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upRight_34
+      rect:
+        serializedVersion: 2
+        x: 3726
+        y: 752
+        width: 621
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7aa4c22e7b4a814892718bdc38c4b3c
+      internalID: 7412333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upRight_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 376
+        width: 621
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f46170d3a7d0d9e49b6b553408108385
+      internalID: 1955287916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upRight_36
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 376
+        width: 621
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbf7cb45cec7e2243b688ba50e5ee1a3
+      internalID: -301941062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upRight_37
+      rect:
+        serializedVersion: 2
+        x: 1242
+        y: 376
+        width: 621
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68a671a9d2ed8b140a3ff87ddd7e0856
+      internalID: 2072827174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upRight_38
+      rect:
+        serializedVersion: 2
+        x: 1863
+        y: 376
+        width: 621
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c3766a36996c80459329f15e3c0ef02
+      internalID: -358393589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upRight_39
+      rect:
+        serializedVersion: 2
+        x: 2484
+        y: 376
+        width: 621
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e4576baacff2e74786c01b47713d984
+      internalID: -1279913344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upRight_40
+      rect:
+        serializedVersion: 2
+        x: 3105
+        y: 376
+        width: 621
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64ac5715813fc2e4f98fa990e842ed64
+      internalID: -1274043901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upRight_41
+      rect:
+        serializedVersion: 2
+        x: 3726
+        y: 376
+        width: 621
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c11ed6357dd3ed448844e3df619141e
+      internalID: -1765132551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upRight_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 621
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de35fa7d17fd12d4f91458459ad19466
+      internalID: -421362830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upRight_43
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 0
+        width: 621
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf065de0f91778043a6e84225bba36fa
+      internalID: 915912338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upRight_44
+      rect:
+        serializedVersion: 2
+        x: 1242
+        y: 0
+        width: 621
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e39c4ad617cf63c4d8ac7ce100e63098
+      internalID: 864392494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upRight_45
+      rect:
+        serializedVersion: 2
+        x: 1863
+        y: 0
+        width: 621
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b07b83d20c693dc4390a3bcf973481fc
+      internalID: -488577751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upRight_46
+      rect:
+        serializedVersion: 2
+        x: 2484
+        y: 0
+        width: 621
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da63da07d26391f43b66233501c549a5
+      internalID: -781986837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upRight_47
+      rect:
+        serializedVersion: 2
+        x: 3105
+        y: 0
+        width: 621
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e88f2ca2c69b4a4e907dcc614d28804
+      internalID: -1202641680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upRight_48
+      rect:
+        serializedVersion: 2
+        x: 3726
+        y: 0
+        width: 621
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3404099355fc6aa41a7c53ab8324e3b6
+      internalID: 2013342231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      upRight_33: 1374626906
+      upRight_44: 864392494
+      upRight_27: 1960826831
+      upRight_18: 1415496479
+      upRight_22: 702707524
+      upRight_21: 2128085144
+      upRight_7: 1840448281
+      upRight_34: 7412333
+      upRight_25: 900266532
+      upRight_15: 1765746106
+      upRight_16: -2135261777
+      upRight_4: -1026823461
+      upRight_48: 2013342231
+      upRight_20: -828043742
+      upRight_38: -358393589
+      upRight_2: 1350071307
+      upRight_1: -1608277847
+      upRight_14: -60922896
+      upRight_12: 1083128281
+      upRight_32: -431559331
+      upRight_8: -1236486847
+      upRight_35: 1955287916
+      upRight_40: -1274043901
+      upRight_39: -1279913344
+      upRight_13: 826271865
+      upRight_30: 851239535
+      upRight_17: 589935327
+      upRight_36: -301941062
+      upRight_37: 2072827174
+      upRight_0: -254784784
+      upRight_6: -422413922
+      upRight_19: 694382086
+      upRight_28: 661038948
+      upRight_46: -781986837
+      upRight_41: -1765132551
+      upRight_10: 1422228540
+      upRight_42: -421362830
+      upRight_3: -1610045730
+      upRight_31: 951923679
+      upRight_9: 1184653906
+      upRight_47: -1202641680
+      upRight_29: 192355700
+      upRight_5: 929582793
+      upRight_11: 101278279
+      upRight_24: -1145260252
+      upRight_45: -488577751
+      upRight_26: 117490273
+      upRight_23: -93982048
+      upRight_43: 915912338
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

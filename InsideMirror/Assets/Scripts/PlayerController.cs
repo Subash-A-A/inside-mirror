@@ -50,7 +50,7 @@ public class PlayerController : MonoBehaviour
         
         Jump();
         Run();
-        
+
         GroundCheck();
         PlayerAnimations();
 
