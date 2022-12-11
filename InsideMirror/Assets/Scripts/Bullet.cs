@@ -22,6 +22,8 @@ public class Bullet : MonoBehaviour
     {
         if (collision.transform.CompareTag("Obstacle"))
         {
+            FindObjectOfType<AudioManager>().Play("explosion", Random.Range(0.9f, 1f));
+            FindObjectOfType<ScoreManager>().IncrementScore();
             if (!isUltimateBullet)
             {
                 Destroy(collision.gameObject);

@@ -6,6 +6,8 @@ public class Shield : MonoBehaviour
     {
         if (collision.transform.CompareTag("Obstacle"))
         {
+            FindObjectOfType<AudioManager>().Play("explosion", Random.Range(0.9f, 1f));
+            FindObjectOfType<ScoreManager>().IncrementScore();
             Destroy(collision.gameObject);
         }
     }

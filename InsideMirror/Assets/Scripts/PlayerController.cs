@@ -14,6 +14,11 @@ public class PlayerController : MonoBehaviour
     private bool _isJumping;
     private bool _isGrounded;
     private int _jumpCount = 0;
+    private bool _isSwitching;
+    private bool _isPressingRMB;
+    private bool _isPressingLMB;
+
+    private MenuControls _menuControls;
 
     public bool _isControlling = false;
     public bool _canSwitch = true;
@@ -22,11 +27,17 @@ public class PlayerController : MonoBehaviour
     public bool _ultimateReady = true;
     public bool _canShoot = true;
 
+    public bool _ultimateInUse = false;
+    public bool _selfAbilityInUse = false;
+
     [Range(0f, 1f)]
     public float _goodEvil = 0f;
+    
 
     private void Start()
     {
+        _menuControls = FindObjectOfType<MenuControls>();
+
         _rb = GetComponent<Rigidbody2D>();
         _anim = GetComponent<Animator>();
 
@@ -43,12 +54,13 @@ public class PlayerController : MonoBehaviour
         GroundCheck();
         PlayerAnimations();
 
-        if (Input.GetKeyDown(KeyCode.LeftShift) && _canSwitch)
+        if (_isSwitching && _canSwitch)
         {
+            _canSwitch = false;
             Switch();
         }
 
-        if(Input.GetMouseButtonDown(1) && _isControlling && _ultimateReady)
+        if(_isPressingRMB && _isControlling && _ultimateReady)
         {   
             if(_goodEvil == 0f)
             {
@@ -61,10 +73,12 @@ public class PlayerController : MonoBehaviour
             }
 
             _ultimateReady = false;
+            _ultimateInUse = true;
             UseUltimate();
         }
-        else if (Input.GetMouseButtonDown(0) && _isControlling)
+        else if (_isPressingLMB && _isControlling)
         {
+            _selfAbilityInUse = true;
             if (_goodEvil == 0f && !_isShielded && _canShield)
             {
                 _isShielded = true;
@@ -80,7 +94,13 @@ public class PlayerController : MonoBehaviour
 
     private void PlayerInput()
     {
-        _isJumping = Input.GetKeyDown(KeyCode.Space);
+        if (_menuControls.canListenInput)
+        {
+            _isJumping = Input.GetKeyDown(KeyCode.Space);
+            _isSwitching = Input.GetKeyDown(KeyCode.LeftShift);
+            _isPressingRMB = Input.GetMouseButtonDown(1);
+            _isPressingLMB = Input.GetMouseButtonDown(0);
+        }
     }
 
     private void Jump()
